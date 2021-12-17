@@ -1,0 +1,12 @@
+class Poso 
+{
+	public static void main(String[] args) 
+	{int count=1;
+	for(char ch='a';(int)ch<='z';ch++,count++)
+		{
+		if(int ch==5)
+	
+			{
+		System.out.println(ch);
+	}
+}}}

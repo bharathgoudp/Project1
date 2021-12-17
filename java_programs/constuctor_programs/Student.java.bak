@@ -1,0 +1,44 @@
+class Student
+{
+	public String name;
+	public String stream;
+	public static String college="jntuh";
+	public double percentage;
+	public String company;
+	public int sal;
+	Student(String i,String j, double b,String s,int f)
+	{
+		name=i;
+		stream=j;
+		percentage=b;
+		company=s;
+		sal=f;
+	}
+	public int annualSalary()
+	{
+		return sal*12;
+	}
+	public void display()
+	{
+				System.out.println("****************");
+
+		System.out.println("name is:"+name);
+		System.out.println("stream:"+stream);
+		System.out.println("college name:"+college);
+		System.out.println("percentage:"+percentage);
+		System.out.println("company:"+company);
+		System.out.println("salary:"+sal);
+		System.out.println("annualsalary:"+annualSalary());
+						System.out.println("****************");
+
+	}
+
+	public static void main(String[] args) 
+	{
+		Student s1 = new Student("ganesh","CSE",7.07,"WIPRO",18000);
+		Student s2 = new Student("sagar","MECH",6.5,"AMAZON",23000);
+		s1.display();
+		s2.display();
+
+	}
+}

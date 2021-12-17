@@ -1,0 +1,31 @@
+abstract class S 
+{
+	abstract public void fight();
+	abstract public void act();
+}
+  abstract class P extends S
+{
+	public void fight()
+	{
+		System.out.println("fight to finish");
+	}
+	
+	
+}
+class Q extends P
+{
+ public void act()
+	{
+	 System.out.println("act like hero");
+	}
+}
+class Multi
+{
+	public static void main(String[] args) 
+	{
+		Q q1 = new Q();
+		q1.fight();
+		q1.act();
+		System.out.println("Hello World!");
+	}
+}

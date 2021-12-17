@@ -1,0 +1,16 @@
+class Demo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Execution starts....");
+						Demo obj = new Demo();
+
+		obj.play();
+		System.out.println("Execution ends...");
+	}
+	public void play()
+	{
+
+		System.out.println("Play like a king....!");
+	}
+}

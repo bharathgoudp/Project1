@@ -1,0 +1,20 @@
+interface ab
+{
+	void add();
+}
+class  ab implements bc
+
+{
+	public void add()
+	{
+		System.out.println("add a pgm");
+	}
+}
+class main
+{
+}
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

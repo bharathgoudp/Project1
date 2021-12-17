@@ -1,0 +1,13 @@
+class Main1 
+{
+	public static void main(char a)
+	{
+		System.out.println(a);
+	}
+	public static void main(String[] args) 
+
+	{
+		main('s');
+		System.out.println("Hello World!");
+	}
+}

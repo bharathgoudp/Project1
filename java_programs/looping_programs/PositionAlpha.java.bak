@@ -1,0 +1,11 @@
+class PositionAlpha 
+{
+	public static void main(String[] args) 
+	{
+		int count = 0;
+		for(char ch ='a' ;ch<='z';ch++)
+		{
+			System.out.println(ch+"-"+count++);
+		}
+	}
+}
